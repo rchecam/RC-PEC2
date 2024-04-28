@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://rchecam@uoc.edu/PEC2/2024/Ejercicio2#"
-     xml:base="http://rchecam@uoc.edu/PEC2/2024/Ejercicio2"
+<rdf:RDF xmlns="https://w3id.org/def/rchecam-RP-PEC2#"
+     xml:base="https://w3id.org/def/rchecam-RP-PEC2"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dtc="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -10,7 +12,15 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:Ejercicio2="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/">
-    <owl:Ontology rdf:about="http://rchecam@uoc.edu/PEC2/2024/Ejercicio2"/>
+    <owl:Ontology rdf:about="https://w3id.org/def/rchecam-RP-PEC2">
+        <dc:creator>Raúl Checa Marín</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-28</dc:date>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-28</dc:issued>
+        <dc:publisher>UOC.edu</dc:publisher>
+        <dtc:license>GPL de GNU</dtc:license>
+        <rdfs:comment>Ontología de la PEC 2 de Representación del conocimiento.</rdfs:comment>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+    </owl:Ontology>
     
 
 
@@ -26,10 +36,45 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
     <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
 
 
     <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:license"/>
     
 
 

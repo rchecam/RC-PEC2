@@ -1,4 +1,11 @@
-<http://rchecam@uoc.edu/PEC2/2024/Ejercicio2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/def/rchecam-RP-PEC2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/def/rchecam-RP-PEC2> <http://purl.org/dc/elements/1.1/creator> "Raúl Checa Marín" .
+<https://w3id.org/def/rchecam-RP-PEC2> <http://purl.org/dc/elements/1.1/date> "2024-04-28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/def/rchecam-RP-PEC2> <http://purl.org/dc/elements/1.1/issued> "2024-04-28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/def/rchecam-RP-PEC2> <http://purl.org/dc/elements/1.1/publisher> "UOC.edu" .
+<https://w3id.org/def/rchecam-RP-PEC2> <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:license> "GPL de GNU" .
+<https://w3id.org/def/rchecam-RP-PEC2> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontología de la PEC 2 de Representación del conocimiento." .
+<https://w3id.org/def/rchecam-RP-PEC2> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 # 
 # 
 # #################################################################
@@ -8,8 +15,23 @@
 # #################################################################
 # 
 # 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/issued
+<http://purl.org/dc/elements/1.1/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:license
+<http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2000/01/rdf-schema#sameAs
 <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
