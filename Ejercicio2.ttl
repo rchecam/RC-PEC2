@@ -7,10 +7,19 @@
 @base <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/> .
 
 <https://w3id.org/def/rchecam-RP-PEC2> rdf:type owl:Ontology ;
-                                        dc:creator "Raúl Checa Marín" ;
-                                        rdfs:label "Ontología de la PEC 2 de Representación del conocimiento." ;
-                                        owl:versionInfo 1.0 ;
-                                        dc:rights "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International." .
+										dcterms:creator "Raúl Checa Marín" ;
+										dcterms:contributor "Raúl Checa Marín" ;
+										dcterms:created "2024-04-20" ;
+                                        dcterms:title "Ontología de la PEC 2 de Representación del conocimiento." ;
+										dcterms:description "Ontogía para encuestas de satisfacción de vuelos." ;
+                                        owl:priorVersion 0.1 ;
+										owl:versionInfo 1.0 ;
+										owl:versionIRI 1.0 ;
+                                        dcterms:license "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International." .
+
+
+
+
 
 #################################################################
 #    Annotation properties
