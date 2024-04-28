@@ -1,19 +1,46 @@
-@prefix : <http://rchecam@uoc.edu/PEC2/2024/Ejercicio2#> .
+@prefix : <https://w3id.org/def/rchecam-RP-PEC2#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://rchecam@uoc.edu/PEC2/2024/Ejercicio2#> .
+@base <https://w3id.org/def/rchecam-RP-PEC2#> .
 
-<http://rchecam@uoc.edu/PEC2/2024/Ejercicio2> rdf:type owl:Ontology .
+<https://w3id.org/def/rchecam-RP-PEC2> rdf:type owl:Ontology ;
+                                        <http://purl.org/dc/elements/1.1/creator> "Raúl Checa Marín" ;
+                                        <http://purl.org/dc/elements/1.1/date> "2024-04-28"^^xsd:dateTime ;
+                                        <http://purl.org/dc/elements/1.1/issued> "2024-04-28"^^xsd:dateTime ;
+                                        <http://purl.org/dc/elements/1.1/publisher> "UOC.edu" ;
+                                        <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:license> "GPL de GNU" ;
+                                        rdfs:comment "Ontología de la PEC 2 de Representación del conocimiento." ;
+                                        owl:versionInfo 1.0 .
 
 #################################################################
 #    Annotation properties
 #################################################################
 
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/issued
+<http://purl.org/dc/elements/1.1/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> rdf:type owl:AnnotationProperty .
+
+
 ###  http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:license
+<http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:license> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#sameAs
