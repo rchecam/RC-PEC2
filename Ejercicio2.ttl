@@ -17,10 +17,6 @@
 										owl:versionIRI 1.0 ;
                                         dcterms:license "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International." .
 
-
-
-
-
 #################################################################
 #    Annotation properties
 #################################################################
