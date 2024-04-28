@@ -7,13 +7,10 @@
 @base <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/> .
 
 <https://w3id.org/def/rchecam-RP-PEC2> rdf:type owl:Ontology ;
-                                        <http://purl.org/dc/elements/1.1/creator> "Raúl Checa Marín" ;
-                                        <http://purl.org/dc/elements/1.1/date> "2024-04-28"^^xsd:dateTime ;
-                                        <http://purl.org/dc/elements/1.1/issued> "2024-04-28"^^xsd:dateTime ;
-                                        <http://purl.org/dc/elements/1.1/publisher> "UOC.edu" ;
-                                        rdfs:comment "Ontología de la PEC 2 de Representación del conocimiento." ;
+                                        dc:creator "Raúl Checa Marín" ;
+                                        rdfs:label "Ontología de la PEC 2 de Representación del conocimiento." ;
                                         owl:versionInfo 1.0 ;
-                                        :dtc:license "GPL de GNU" .
+                                        dc:rights "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International." .
 
 #################################################################
 #    Annotation properties
